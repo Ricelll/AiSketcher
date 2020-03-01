@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AiSketcher's results</title>
+  </head>
+  <style>
+      .demo{
+          width:80%;
+          margin:0 auto
+      }
+      table td{
+          margin:0 auto
+      }
+  </style>
+  <body>
+    <h1 align="center">AiSketcher</h1>
+      <p align="center">Fei Gao,&nbsp;Jingjie Zhu,&nbsp;Zeyuan Yu,&nbsp;Peng Li,&nbsp;Tao Wang,&nbsp;Senior Member,&nbsp;IEEE</p>
+      <div class="demo">
+          <h2 align="center">Abstract</h2>
+      	  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Significant progress has been made with Drawing Robots and face sketch synthesis. However, existing work fail to produce high quality artistic portraits. Such portraits have a highly abstract style, containing a sparse set of continuous
+graphical lines to capture the personality and feelings of a person. To address these challenges, in this work, we present a novel robotic system, namely AiSketcher. At the heart of our system is a novel sketch style transfer algorithm based on deep neural networks. Innovatively, we propose a componential sparsity constraint to decrease the number of brush-strokes without harming the vividness. Besides, we propose a sketch-reconstruction loss function, which significantly improves the realism of synthesised brush-strokes. We also implement several pre- and post-processing techniques to deal with the background and details. Finally, we convert the synthesised sketch to a improved sequence of trajectories and reproduce it by a 3-degree-of-freedom (DOF) manipulator within about two minutes. Here, we implement various human-computer interactive techniques to facilitate uses of AiSketcher. Extensive experiments show that AiSketcher achieves a balance between the ”vividness” of a sketch and the time-budget for drawing it. It works considerably well over a wide range of facial pictures, including faces with diverse poses, occlusions, or expressions. In addition, AiSketcher allows users to flexibly and easily control attributes of synthesised sketches, or apply it to universal images. To our best knowledge, the robotic system
+described in this work is the first drawing agent that uses deep neural style transfer technique. AiSketcher has attended a quite number of exhibitions and shown remarkable as well as robust performance under diverse circumstances.</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We have tested the Celebrities from the Internet Cartoon, FFHQ and CelebA-HQ.The results can be shown in the link below:
+     </p>
+<table style="table-layout: fixed;" align="center" cellspacing="50">
+  <tr>
+    <td halign="center" style="word-wrap: break-word;" valign="top">
+      <p>
+        <a href="ours_g1.html">Results with Preprocessing</a><br>
+      </p>
+    </td>
+     <td halign="center" style="word-wrap: break-word;" valign="top">
+      <p>
+        <a href="ours_g2.html">Results without Preprocessing</a><br>
+      </p>
+    </td>
+    <td halign="center" style="word-wrap: break-word;" valign="top">
+  	<p>
+       <a href="ours_robot.html">Results af Robot drawing</a><br>
+    </p>
+    </td>
+     </tr>
+ </div>
 
-You can use the [editor on GitHub](https://github.com/Ricelll/AiSketcher/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ricelll/AiSketcher/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  </body>
+</html>
