@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>AiSketcher's results</title>
-  </head>
-  <style>
-      .demo{
-          width:80%;
-          margin:0 auto
-      }
-      table td{
-          margin:0 auto
-      }
-  </style>
   <body>
     <h1 align="center">AiSketcher</h1>
       <p align="center">Fei Gao,&nbsp;Jingjie Zhu,&nbsp;Zeyuan Yu,&nbsp;Peng Li,&nbsp;Tao Wang,&nbsp;Senior Member,&nbsp;IEEE</p>
@@ -40,7 +26,3 @@ described in this work is the first drawing agent that uses deep neural style tr
     </p>
     </td>
      </tr>
- </div>
-
-  </body>
-</html>
