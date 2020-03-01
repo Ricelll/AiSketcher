@@ -17,7 +17,7 @@ described in this work is the first drawing agent that uses deep neural style tr
     </td>
      <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
-        <a href="ours_g2.html">Results without Preprocessing</a><br>
+        <a href="pages/index.html">Results without Preprocessing</a><br>
       </p>
     </td>
     <td halign="center" style="word-wrap: break-word;" valign="top">
