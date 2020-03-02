@@ -184,8 +184,6 @@
   </tr>
 </table>   
  <p>Other results can be shown in the link below:</p>
-<table style="table-layout: fixed;" align="center" cellspacing="50">
-  <tr>
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="ours_g1.html">Results with Preprocessing</a><br>
@@ -196,4 +194,4 @@
         <a href="ours_g2.html">Results without Preprocessing</a><br>
       </p>
     </td>
-     </tr>
+  </div>
