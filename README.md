@@ -2,12 +2,8 @@
     <h1 align="center">AiSketcher</h1>
       <p align="center">Fei Gao,&nbsp;Jingjie Zhu,&nbsp;Zeyuan Yu,&nbsp;Peng Li,&nbsp;Tao Wang,&nbsp;Senior Member,&nbsp;IEEE</p>
       <div class="demo">
-          <h1 align="center">AiSketcher</h1>
-      <p align="center">Fei Gao,&nbsp;Jingjie Zhu,&nbsp;Zeyuan Yu,&nbsp;Peng Li,&nbsp;Tao Wang,&nbsp;Senior Member,&nbsp;IEEE</p>
-      <div class="demo">
-          <h2 align="center">AiStecher's Generating Results of robot drawing</h2> robot drawing.The results can be shown in the link below:
-     </p>
-<table style="table-layout: fixed;" align="center">
+          <h2 align="center">AiStecher's Generating Results of robot drawing</h2>
+     <table style="table-layout: fixed;" align="center">
       <tr>
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
@@ -125,8 +121,7 @@
         </a><br>
       </p>
     </td>
-  </tr>
-</table>
+  </tr>]
   </table>
       <table style="table-layout: fixed;" align="center">
       <tr>
@@ -187,7 +182,8 @@
       </p>
     </td>
   </tr>
-</table>        
+</table>   
+ <p>Other results can be shown in the link below:</p>
 <table style="table-layout: fixed;" align="center" cellspacing="50">
   <tr>
     <td halign="center" style="word-wrap: break-word;" valign="top">
