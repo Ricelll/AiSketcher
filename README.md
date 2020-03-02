@@ -2,7 +2,7 @@
     <h1 align="center">AiSketcher</h1>
       <p align="center">Fei Gao,&nbsp;Jingjie Zhu,&nbsp;Zeyuan Yu,&nbsp;Peng Li,&nbsp;Tao Wang,&nbsp;Senior Member,&nbsp;IEEE</p>
       <div class="demo">
-          <h2 align="center">AiStecher's Generating Results of robot drawing</h2>
+          <h3 align="center">AiStecher's Generating Results of robot drawing</h3>
      <table style="table-layout: fixed;" align="center">
       <tr>
         <td halign="center" style="word-wrap: break-word;" valign="top">
