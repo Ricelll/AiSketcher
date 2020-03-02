@@ -50,14 +50,14 @@
       <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/45_yuan.jpg">
-          <img src="images/ours_robot/45_yuan.jpg" style="width:128px">
+          <img src="images/ours_robot/45_yuan.jpg" style="width:55px">
         </a><br>
       </p>
     </td>
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/48_yuan.jpg">
-          <img src="images/ours_robot/48_yuan.jpg" style="width:128px">
+          <img src="images/ours_robot/48_yuan.jpg" style="width:60px">
         </a><br>
       </p>
     </td>
@@ -108,14 +108,14 @@
       <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/45_generate.jpg">
-          <img src="images/ours_robot/45_generate.jpg" style="width:128px">
+          <img src="images/ours_robot/45_generate.jpg" style="width:55px">
         </a><br>
       </p>
     </td>
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/48_generate.jpg">
-          <img src="images/ours_robot/48_generate.jpg" style="width:128px">
+          <img src="images/ours_robot/48_generate.jpg" style="width:60px">
         </a><br>
       </p>
     </td>
