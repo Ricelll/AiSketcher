@@ -62,8 +62,6 @@
       </p>
     </td>
   </tr>
-</table>
-      <table style="table-layout: fixed;" align="center">
       <tr>
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
@@ -121,9 +119,7 @@
         </a><br>
       </p>
     </td>
-  </tr>]
-  </table>
-      <table style="table-layout: fixed;" align="center">
+  </tr>
       <tr>
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
