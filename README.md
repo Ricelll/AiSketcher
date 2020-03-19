@@ -16,7 +16,7 @@
     </td>
        <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
-        <a href="ours_g2.html">Results with different styles</a><br>
+        <a href="ours_g3.html">Results with different styles</a><br>
       </p>
     </td>
      <table style="table-layout: fixed;" align="center">
@@ -845,7 +845,7 @@
     </td>
        <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
-        <a href="ours_g2.html">Results with different styles</a><br>
+        <a href="ours_g3.html">Results with different styles</a><br>
       </p>
     </td>
   </div>
