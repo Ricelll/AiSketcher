@@ -1,23 +1,24 @@
-  <style>
-   .demo{
-     height:80%;
-     margin:0 auto;
-     align:center
-  }
-  table{
-     align:center
-  }
-  teble td{
-     margin:0 auto;
-     align:center
-    }
-  </style>
   <body>
     <h1 align="center">AiSketcher</h1>
       <p align="center">Fei Gao,&nbsp;Jingjie Zhu,&nbsp;Zeyuan Yu,&nbsp;Peng Li,&nbsp;Tao Wang,&nbsp;Senior Member,&nbsp;IEEE</p>
       <div class="demo" align="center">
           <h3 align="center">AiStecher's Generating Results of robot drawing</h3>
-       <p align="center">The results are shown as follows, where each of the three columns is the original image, the generated image and the image of robot drawing.Other results are in the link at the bottom.</p>
+       <p align="center">The results are shown as follows, where each of the three columns is the original image, the generated image and the image of robot drawing.Other results can be shown in the link below:</p>
+    <td halign="center" style="word-wrap: break-word;" valign="top">
+      <p>
+        <a href="ours_g1.html">Results with Preprocessing</a><br>
+      </p>
+    </td>
+     <td halign="center" style="word-wrap: break-word;" valign="top">
+      <p>
+        <a href="ours_g2.html">Results without Preprocessing</a><br>
+      </p>
+    </td>
+       <td halign="center" style="word-wrap: break-word;" valign="top">
+      <p>
+        <a href="ours_g2.html">Results with different styles</a><br>
+      </p>
+    </td>
      <table style="table-layout: fixed;" align="center">
       <tr>
         <td halign="center" style="word-wrap: break-word;" valign="top">
@@ -565,35 +566,35 @@
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/45.jpg">
-              <img src="images/ours_robot/45.jpg" style="height:175px">
+              <img src="images/ours_robot/45.jpg" style="height:180px">
             </a><br>
           </p>
         </td>
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/48.jpg">
-          <img src="images/ours_robot/48.jpg" style="height:175px">
+          <img src="images/ours_robot/48.jpg" style="height:180px">
         </a><br>
       </p>
     </td>
      <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/38.jpg">
-          <img src="images/ours_robot/38.jpg" style="height:175px">
+          <img src="images/ours_robot/38.jpg" style="height:180px">
         </a><br>
       </p>
     </td>
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/37.jpg">
-          <img src="images/ours_robot/37.jpg" style="height:175px">
+          <img src="images/ours_robot/37.jpg" style="height:180px">
         </a><br>
       </p>
     </td>
       <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/36.jpg">
-          <img src="images/ours_robot/36.jpg" style="height:175px">
+          <img src="images/ours_robot/36.jpg" style="height:180px">
         </a><br>
       </p>
     </td>
@@ -844,7 +845,7 @@
     </td>
        <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
-        <a href="ours_g2.html">Results with different style</a><br>
+        <a href="ours_g2.html">Results with different styles</a><br>
       </p>
     </td>
   </div>
