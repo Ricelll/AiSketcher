@@ -625,8 +625,8 @@
     </td>
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
-        <a href="images/ours_robot/13_yuan.jpg">
-          <img src="images/ours_robot/13_yuan.jpg" style="height:170px">
+        <a href="images/ours_robot/13_yuan.png">
+          <img src="images/ours_robot/13_yuan.png" style="height:170px">
         </a><br>
       </p>
     </td>
@@ -664,8 +664,8 @@
 </td>
 <td halign="center" style="word-wrap: break-word;" valign="top">
   <p>
-    <a href="images/ours_robot/13_generate.png">
-      <img src="images/ours_robot/13_generate.png" style="height:170px">
+    <a href="images/ours_robot/13_generate.jpg">
+      <img src="images/ours_robot/13_generate.jpg" style="height:170px">
     </a><br>
   </p>
 </td>
