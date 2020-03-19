@@ -1,3 +1,17 @@
+  <style>
+   .demo{
+     height:80%;
+     margin:0 auto;
+     align:center
+  }
+  table{
+     align:center
+  }
+  teble td{
+     margin:0 auto;
+     align:center
+    }
+  </style>
   <body>
     <h1 align="center">AiSketcher</h1>
       <p align="center">Fei Gao,&nbsp;Jingjie Zhu,&nbsp;Zeyuan Yu,&nbsp;Peng Li,&nbsp;Tao Wang,&nbsp;Senior Member,&nbsp;IEEE</p>
