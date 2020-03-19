@@ -3,7 +3,7 @@
       <p align="center">Fei Gao,&nbsp;Jingjie Zhu,&nbsp;Zeyuan Yu,&nbsp;Peng Li,&nbsp;Tao Wang,&nbsp;Senior Member,&nbsp;IEEE</p>
       <div class="demo" align="center">
           <h3 align="center">AiStecher's Generating Results of robot drawing</h3>
-       <p align="center">The results are shown as follows, where each of the three columns is the original image, the generated image and the image of robot drawing.Other results can be shown in the link below:</p>
+       <p align="center">The results are shown as follows, where each of the three lines is the original image, the generated image and the image of robot drawing.Other results can be shown in the link below:</p>
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="ours_g1.html">Results with Preprocessing</a><br>
