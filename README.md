@@ -566,35 +566,35 @@
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/45.jpg">
-              <img src="images/ours_robot/45.jpg" style="height:180px">
+              <img src="images/ours_robot/45.jpg" style="height:170px width=200px">
             </a><br>
           </p>
         </td>
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/48.jpg">
-          <img src="images/ours_robot/48.jpg" style="height:180px">
+          <img src="images/ours_robot/48.jpg" style="height:170px width=200px">
         </a><br>
       </p>
     </td>
      <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/38.jpg">
-          <img src="images/ours_robot/38.jpg" style="height:180px">
+          <img src="images/ours_robot/38.jpg" style="height:170px width=200px">
         </a><br>
       </p>
     </td>
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/37.jpg">
-          <img src="images/ours_robot/37.jpg" style="height:180px">
+          <img src="images/ours_robot/37.jpg" style="height:170px width=200px">
         </a><br>
       </p>
     </td>
       <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/36.jpg">
-          <img src="images/ours_robot/36.jpg" style="height:180px">
+          <img src="images/ours_robot/36.jpg" style="height:170px width=200px">
         </a><br>
       </p>
     </td>
