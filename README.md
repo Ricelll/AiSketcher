@@ -5,17 +5,17 @@
           <h3 align="center">AiStecher's Generating Results of robot drawing</h3>
        <p align="center">The results are shown as follows, where each of the three lines is the original image, the generated image and the image of robot drawing.Other results can be shown in the link below:</p>
     <td halign="center" style="word-wrap: break-word;" valign="top">
-      <p>
+      <p align="center">
         <a href="ours_g1.html">Results with Preprocessing</a><br>
       </p>
     </td>
      <td halign="center" style="word-wrap: break-word;" valign="top">
-      <p>
+      <p align="center">
         <a href="ours_g2.html">Results without Preprocessing</a><br>
       </p>
     </td>
        <td halign="center" style="word-wrap: break-word;" valign="top">
-      <p>
+      <p align="center">
         <a href="ours_g3.html">Results with different styles</a><br>
       </p>
     </td>
@@ -797,19 +797,13 @@
     </td>
   </tr>
  <p align="center">Other results can be shown in the link below:</p>
-    <td halign="center" style="word-wrap: break-word;" valign="top">
-      <p>
-        <a href="ours_g1.html">Results with Preprocessing</a><br>
-      </p>
-    </td>
-     <td halign="center" style="word-wrap: break-word;" valign="top">
-      <p>
-        <a href="ours_g2.html">Results without Preprocessing</a><br>
-      </p>
-    </td>
-       <td halign="center" style="word-wrap: break-word;" valign="top">
-      <p>
-        <a href="ours_g3.html">Results with different styles</a><br>
-      </p>
-    </td>
+  <p align="center">
+    <a href="ours_g1.html">Results with Preprocessing</a><br>
+  </p>
+  <p align="center">
+    <a href="ours_g2.html">Results without Preprocessing</a><br>
+  </p>
+  <p align="center">
+    <a href="ours_g3.html">Results with different styles</a><br>
+  </p>
  
