@@ -578,7 +578,6 @@
       </p>
     </td>
   </tr> 
- </table>
    <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
@@ -690,7 +689,6 @@
       </p>
     </td>
   </tr>
- </table>
    <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
@@ -819,5 +817,5 @@
         <a href="ours_g3.html">Results with different styles</a><br>
       </p>
     </td>
-  </div>
+ </div>
  
