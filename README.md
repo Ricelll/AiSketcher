@@ -796,15 +796,20 @@
       </p>
     </td>
   </tr>
- <br>
+</br>     
  <p align="center">Other results can be shown in the link below:</p>
-  <p align="center">
-    <a href="ours_g1.html">Results with Preprocessing</a><br>
-  </p>
-  <p align="center">
-    <a href="ours_g2.html">Results without Preprocessing</a><br>
-  </p>
-  <p align="center">
-    <a href="ours_g3.html">Results with different styles</a><br>
-  </p>
- 
+    <td halign="center" style="word-wrap: break-word;" valign="top">
+      <p align="center">
+        <a href="ours_g1.html">Results with Preprocessing</a><br>
+      </p>
+    </td>
+     <td halign="center" style="word-wrap: break-word;" valign="top">
+      <p align="center">
+        a href="ours_g2.html">Results without Preprocessing</a><br>
+      </p>
+    </td>
+       <td halign="center" style="word-wrap: break-word;" valign="top">
+      <p align="center">
+        <a href="ours_g3.html">Results with different styles</a><br>
+      </p>
+    </td>
