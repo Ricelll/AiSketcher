@@ -130,7 +130,6 @@
       </p>
     </td>
   </tr>
-  </table>
    <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
@@ -242,7 +241,6 @@
       </p>
     </td>
   </tr>
-   </table>
    <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
@@ -354,7 +352,6 @@
       </p>
     </td>
   </tr>
- </table>
    <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
@@ -466,7 +463,6 @@
       </p>
     </td>
   </tr>
-  </table>
    <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
@@ -800,7 +796,6 @@
       </p>
     </td>
   </tr>
-</table> 
  <p align="center">Other results can be shown in the link below:</p>
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
@@ -817,5 +812,4 @@
         <a href="ours_g3.html">Results with different styles</a><br>
       </p>
     </td>
- </div>
  
