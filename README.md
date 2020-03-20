@@ -242,7 +242,7 @@
       </p>
     </td>
   </tr>
-         </table>
+  </table>
       <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
@@ -354,7 +354,7 @@
       </p>
     </td>
   </tr>
-         </table>
+ </table>
       <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
@@ -466,7 +466,7 @@
       </p>
     </td>
   </tr>
-         </table>
+   </table>
       <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
@@ -577,7 +577,8 @@
         </a><br>
       </p>
     </td>
-  </tr> </table>
+  </tr> 
+       </table>
       <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
@@ -689,7 +690,7 @@
       </p>
     </td>
   </tr>
-         </table>
+  </table>
       <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
@@ -801,8 +802,10 @@
       </p>
     </td>
   </tr>
-</table>  
- <p>Other results can be shown in the link below:</p>
+</table> 
+</div> 
+  
+ <p align="center>Other results can be shown in the link below:</p>
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="ours_g1.html">Results with Preprocessing</a><br>
@@ -818,5 +821,5 @@
         <a href="ours_g3.html">Results with different styles</a><br>
       </p>
     </td>
-     </div>
+  
  
