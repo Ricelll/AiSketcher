@@ -1,6 +1,5 @@
   <body>
     <h1 align="center">AiSketcher</h1>
-     <div class="demo" align="center">
       <p align="center">Fei Gao,&nbsp;Jingjie Zhu,&nbsp;Zeyuan Yu,&nbsp;Peng Li,&nbsp;Tao Wang,&nbsp;Senior Member,&nbsp;IEEE</p>
           <h3 align="center">AiStecher's Generating Results of robot drawing</h3>
        <p align="center">The results are shown as follows, where each of the three lines is the original image, the generated image and the image of robot drawing.Other results can be shown in the link below:</p>
@@ -130,8 +129,6 @@
       </p>
     </td>
   </tr>
-     </table>
-      <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
@@ -242,8 +239,6 @@
       </p>
     </td>
   </tr>
-  </table>
-      <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
@@ -354,8 +349,6 @@
       </p>
     </td>
   </tr>
- </table>
-      <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
@@ -466,8 +459,6 @@
       </p>
     </td>
   </tr>
-   </table>
-      <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
@@ -578,8 +569,6 @@
       </p>
     </td>
   </tr> 
-       </table>
-      <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
@@ -690,8 +679,6 @@
       </p>
     </td>
   </tr>
-  </table>
-      <table style="table-layout: fixed;" align="center">
       <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
@@ -803,9 +790,7 @@
     </td>
   </tr>
 </table> 
-</div> 
-  
- <p align="center>Other results can be shown in the link below:</p>
+ <p align="center">Other results can be shown in the link below:</p>
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="ours_g1.html">Results with Preprocessing</a><br>
