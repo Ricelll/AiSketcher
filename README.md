@@ -20,7 +20,7 @@
       </p>
     </td>
      <table style="table-layout: fixed;" align="center">
-      <tr>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/41_yuan.jpg">
@@ -57,9 +57,7 @@
       </p>
     </td>
   </tr>
-</table>
-      <table style="table-layout: fixed;" align="center">
-      <tr>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/41_generate.jpg">
@@ -95,8 +93,6 @@
         </a><br>
       </p>
     </td></tr>
-  </table>
-        <table style="table-layout: fixed;" align="center">
       <tr>
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
@@ -134,9 +130,7 @@
       </p>
     </td>
   </tr>
-</table>
- <table style="table-layout: fixed;" align="center">
-      <tr>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/39_yuan.jpg">
@@ -173,9 +167,7 @@
       </p>
     </td>
   </tr>
-</table>
-<table style="table-layout: fixed;" align="center">
-  <tr>
+  <tr align="center">
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/39_generate.jpg">
@@ -210,10 +202,8 @@
       <img src="images/ours_robot/32_generate.jpg" style="height:128px">
     </a><br>
   </p>
-</td></tr>
-</table>
- <table style="table-layout: fixed;" align="center">
-      <tr>
+</td>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/39.jpg">
@@ -250,10 +240,7 @@
       </p>
     </td>
   </tr>
-</table>
- 
- <table style="table-layout: fixed;" align="center">
-      <tr>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/2_yuan.jpg">
@@ -290,9 +277,7 @@
       </p>
     </td>
   </tr>
-</table>
-<table style="table-layout: fixed;" align="center">
-  <tr>
+  <tr align="center">
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/2_generate.jpg">
@@ -327,10 +312,8 @@
       <img src="images/ours_robot/1_generate.jpg" style="height:128px">
     </a><br>
   </p>
-</td></tr>
-</table>
- <table style="table-layout: fixed;" align="center">
-      <tr>
+</td>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/2.jpg">
@@ -367,9 +350,7 @@
       </p>
     </td>
   </tr>
-</table>
-  <table style="table-layout: fixed;" align="center">
-      <tr>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/20_yuan.jpg">
@@ -406,9 +387,7 @@
       </p>
     </td>
   </tr>
-</table>
-<table style="table-layout: fixed;" align="center">
-  <tr>
+  <tr align="center">
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/20_generate.jpg">
@@ -443,10 +422,8 @@
       <img src="images/ours_robot/5_generate.jpg" style="height:128px">
     </a><br>
   </p>
-</td></tr>
-</table>
- <table style="table-layout: fixed;" align="center">
-      <tr>
+</td>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/20.jpg">
@@ -483,9 +460,7 @@
       </p>
     </td>
   </tr>
-</table>
-  <table style="table-layout: fixed;" align="center">
-      <tr>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/45_yuan.jpg">
@@ -522,9 +497,7 @@
       </p>
     </td>
   </tr>
-</table>
-<table style="table-layout: fixed;" align="center">
-  <tr>
+  <tr align="center">
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/45_generate.jpg">
@@ -559,10 +532,8 @@
       <img src="images/ours_robot/36_generate.jpg" style="height:170px">
     </a><br>
   </p>
-</td></tr>
-</table>
- <table style="table-layout: fixed;" align="center">
-      <tr>
+</td>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/45.jpg">
@@ -599,9 +570,7 @@
       </p>
     </td>
   </tr>
-</table>
-  <table style="table-layout: fixed;" align="center">
-      <tr>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/31_yuan.jpg">
@@ -638,9 +607,7 @@
       </p>
     </td>
   </tr>
-</table>
-<table style="table-layout: fixed;" align="center">
-  <tr>
+  <tr align="center">
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/31_generate.jpg">
@@ -675,10 +642,8 @@
       <img src="images/ours_robot/7_generate.jpg" style="height:170px">
     </a><br>
   </p>
-</td></tr>
-</table>
- <table style="table-layout: fixed;" align="center">
-      <tr>
+</td>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/31.jpg">
@@ -715,9 +680,7 @@
       </p>
     </td>
   </tr>
-</table>
-  <table style="table-layout: fixed;" align="center">
-      <tr>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/9_yuan.jpg">
@@ -754,9 +717,7 @@
       </p>
     </td>
   </tr>
-</table>
-<table style="table-layout: fixed;" align="center">
-  <tr>
+  <tr align="center">
     <td halign="center" style="word-wrap: break-word;" valign="top">
       <p>
         <a href="images/ours_robot/9_generate.jpg">
@@ -791,10 +752,8 @@
       <img src="images/ours_robot/18_generate.jpg" style="height:170px">
     </a><br>
   </p>
-</td></tr>
-</table>
- <table style="table-layout: fixed;" align="center">
-      <tr>
+</td>
+      <tr align="center">
         <td halign="center" style="word-wrap: break-word;" valign="top">
           <p>
             <a href="images/ours_robot/9.jpg">
