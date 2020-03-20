@@ -796,6 +796,7 @@
       </p>
     </td>
   </tr>
+ <br>
  <p align="center">Other results can be shown in the link below:</p>
   <p align="center">
     <a href="ours_g1.html">Results with Preprocessing</a><br>
