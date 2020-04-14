@@ -1,141 +1,1496 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title>AiSketcher</title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1894.3">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 21.0px; font: 14.0px 'Roboto Light'; color: #73808c; -webkit-text-stroke: #73808c}
-    p.p2 {margin: 0.0px 0.0px 16.0px 0.0px; text-align: center; line-height: 30.0px; font: 14.4px 'Helvetica Light'; color: #73808c; -webkit-text-stroke: #73808c}
-    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; text-align: center; line-height: 30.0px; font: 14.4px 'Helvetica Light'; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 48.0px; font: 48.0px paperIcons; color: #1397f1; -webkit-text-stroke: #1397f1; min-height: 48.0px}
-    p.p6 {margin: 0.0px 0.0px 20.0px 0.0px; text-align: center; line-height: 30.0px; font: 14.0px 'Helvetica Light'; color: #1397f1; -webkit-text-stroke: #1397f1}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 15.0px; font: 12.0px 'Helvetica Light'; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 21.0px; font: 14.0px 'Roboto Light'; color: #73808c; -webkit-text-stroke: #73808c}
-    p.p9 {margin: 0.0px 0.0px 35.0px 0.0px; line-height: 30.0px; font: 14.0px 'Roboto Light'; color: #73808c; -webkit-text-stroke: #73808c}
-    span.s1 {font-kerning: none; background-color: #f3f6f9}
-    span.s2 {font-kerning: none}
-    span.s3 {font-kerning: none; background-color: #ffffff}
-    span.s4 {font-kerning: none; background-color: #1397f1}
-    span.s5 {font: 14.0px 'Helvetica Light'; font-kerning: none; color: #73808c; background-color: #ffffff; -webkit-text-stroke: 0px #73808c}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">LOADING</span></p>
-<p class="p2"><span class="s1">AiStecher's Generating Results Of Robot Drawing<span class="Apple-converted-space"> </span></span></p>
-<h1 style="margin: 0.0px 0.0px 6.0px 0.0px; text-align: center; line-height: 56.0px; font: 51.0px 'Apple Chancery'; color: #ffffff; -webkit-text-stroke: #ffffff"><span class="s1">AiSketcher<span class="Apple-converted-space"> </span></span></h1>
-<p class="p4"><span class="s1">Fei Gao, Jingjie Zhu, Zeyuan Yu, Peng Li, Tao Wang, Senior Member, IEEE<span class="Apple-converted-space"> </span></span></p>
-<p class="p5"><span class="s2"><a href="file:///Users/ricelll/Library/Containers/com.tencent.xinWeChat/Data/Library/Application%20Support/com.tencent.xinWeChat/2.0b4.0.9/7ab4f3d8930ac8e767d712754bc3d535/Message/MessageTemp/955a5cb6d7c35cc6116f7d15a993cacf/File/githubpage/with-pre.html"></a></span><br></p>
-<p class="p6"><span class="s3"><a href="file:///Users/ricelll/Library/Containers/com.tencent.xinWeChat/Data/Library/Application%20Support/com.tencent.xinWeChat/2.0b4.0.9/7ab4f3d8930ac8e767d712754bc3d535/Message/MessageTemp/955a5cb6d7c35cc6116f7d15a993cacf/File/githubpage/with-pre.html">With Preprocessing<span class="s2"></span></a></span></p>
-<p class="p5"><span class="s2"><a href="file:///Users/ricelll/Library/Containers/com.tencent.xinWeChat/Data/Library/Application%20Support/com.tencent.xinWeChat/2.0b4.0.9/7ab4f3d8930ac8e767d712754bc3d535/Message/MessageTemp/955a5cb6d7c35cc6116f7d15a993cacf/File/githubpage/without-pre.html"></a></span><br></p>
-<p class="p6"><span class="s3"><a href="file:///Users/ricelll/Library/Containers/com.tencent.xinWeChat/Data/Library/Application%20Support/com.tencent.xinWeChat/2.0b4.0.9/7ab4f3d8930ac8e767d712754bc3d535/Message/MessageTemp/955a5cb6d7c35cc6116f7d15a993cacf/File/githubpage/without-pre.html">Without Preprocessing<span class="s2"></span></a></span></p>
-<p class="p5"><span class="s2"><a href="file:///Users/ricelll/Library/Containers/com.tencent.xinWeChat/Data/Library/Application%20Support/com.tencent.xinWeChat/2.0b4.0.9/7ab4f3d8930ac8e767d712754bc3d535/Message/MessageTemp/955a5cb6d7c35cc6116f7d15a993cacf/File/githubpage/diff-styles.html"></a></span><br></p>
-<p class="p6"><span class="s3"><a href="file:///Users/ricelll/Library/Containers/com.tencent.xinWeChat/Data/Library/Application%20Support/com.tencent.xinWeChat/2.0b4.0.9/7ab4f3d8930ac8e767d712754bc3d535/Message/MessageTemp/955a5cb6d7c35cc6116f7d15a993cacf/File/githubpage/diff-styles.html">With Different Styles<span class="s2"></span></a></span></p>
-<p class="p7"><span class="s4"><a href="https://github.com/Ricelll/AiSketcher">Github</a></span><span class="s5"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///41_yuan.jpg" alt="41_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///41_generate.jpg" alt="41_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///41.jpg" alt="41.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///42_yuan.jpg" alt="42_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///42_generate.jpg" alt="42_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///42.jpg" alt="42.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///43_yuan.jpg" alt="43_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///43_generate.jpg" alt="43_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///43.jpg" alt="43.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///44_yuan.jpg" alt="44_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///44_generate.jpg" alt="44_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///44.jpg" alt="44.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///47_yuan.jpg" alt="47_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///47_generate.jpg" alt="47_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///47.jpg" alt="47.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///39_yuan.jpg" alt="39_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///39_generate.jpg" alt="39_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///39.jpg" alt="39.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///35_yuan.jpg" alt="35_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///35_generate.jpg" alt="35_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///35.jpg" alt="35.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///34_yuan.jpg" alt="34_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///34_generate.jpg" alt="34_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///34.jpg" alt="34.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///33_yuan.jpg" alt="33_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///33_generate.jpg" alt="33_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///33.jpg" alt="33.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///2_yuan.jpg" alt="2_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///2_generate.jpg" alt="2_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///2.jpg" alt="2.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///32_yuan.jpg" alt="32_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///32_generate.jpg" alt="32_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///32.jpg" alt="32.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///46_yuan.jpg" alt="46_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///46_generate.jpg" alt="46_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///46.jpg" alt="46.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///28_yuan.jpg" alt="28_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///28_generate.jpg" alt="28_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///28.jpg" alt="28.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///25_yuan.jpg" alt="25_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///25_generate.jpg" alt="25_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///25.jpg" alt="25.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///1_yuan.jpg" alt="1_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///1_generate.jpg" alt="1_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///1.jpg" alt="1.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///20_yuan.jpg" alt="20_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///20_generate.jpg" alt="20_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///20.jpg" alt="20.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///4_yuan.jpg" alt="4_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///4_generate.jpg" alt="4_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///4.jpg" alt="4.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///11_yuan.jpg" alt="11_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///11_generate.jpg" alt="11_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///11.jpg" alt="11.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///8_yuan.jpg" alt="8_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///8_generate.jpg" alt="8_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///8.jpg" alt="8.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///5_yuan.jpg" alt="5_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///5_generate.jpg" alt="5_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///5.jpg" alt="5.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///45_yuan.jpg" alt="45_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///45_generate.jpg" alt="45_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///45.jpg" alt="45.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///48_yuan.jpg" alt="48_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///48_generate.jpg" alt="48_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///48.jpg" alt="48.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///38_yuan.jpg" alt="38_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///38_generate.jpg" alt="38_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///38.jpg" alt="38.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///37_yuan.jpg" alt="37_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///37_generate.jpg" alt="37_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///37.jpg" alt="37.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///36_yuan.jpg" alt="36_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///36_generate.jpg" alt="36_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///36.jpg" alt="36.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///31_yuan.jpg" alt="31_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///31_generate.jpg" alt="31_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///31.jpg" alt="31.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///3_yuan.jpg" alt="3_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///3_generate.jpg" alt="3_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///3.jpg" alt="3.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///13_yuan.jpg" alt="13_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///13_generate.jpg" alt="13_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///13.jpg" alt="13.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///7_yuan.jpg" alt="7_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///7_generate.jpg" alt="7_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///7.jpg" alt="7.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///9_yuan.jpg" alt="9_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///9_generate.jpg" alt="9_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///9.jpg" alt="9.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///26_yuan.jpg" alt="26_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///26_generate.jpg" alt="26_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///26.jpg" alt="26.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///24_yuan.jpg" alt="24_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///24_generate.jpg" alt="24_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///24.jpg" alt="24.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///19_yuan.jpg" alt="19_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///19_generate.jpg" alt="19_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///19.jpg" alt="19.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///18_yuan.jpg" alt="18_yuan.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///18_generate.jpg" alt="18_generate.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p8"><span class="s2"><img src="file:///18.jpg" alt="18.jpg"></span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
-<p class="p9"><span class="s3">* AiStecher's generating results of robot drawing are shown in this webpage, where each of the three lines is the original image, the generated image and the image of robot drawing.<span class="Apple-converted-space"> </span></span></p>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="assets/img/basic/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>AiSketcher</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <style>
+      .loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9998;
+        width: 100%;
+        height: 100%;
+        background-color: #f5f8fa;
+        text-align: center;
+      }
+      .plane-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Pre loader -->
+    <div id="loader" class="loader">
+      <div class="plane-container">
+        <div class="l-s-2 blink">LOADING</div>
+      </div>
+    </div>
+
+    <div id="app" class="paper-loading">
+      <!-- Hero -->
+      <section
+        class="search-section product-head"
+        style="background-image: url('assets/img/basic/banner.jpg');"
+      >
+        <div class="text-center p-t-b-40">
+          <div class="container">
+            <p
+              style="
+                font-family: 'Poppins', sans-serif;
+                font-size: 1.2rem;
+                color: #86939e;
+                margin-bottom: 16px;
+              "
+            >
+              AiStecher's Generating Results Of Robot Drawing
+            </p>
+            <h1
+              style="
+                font-family: 'Kaushan Script', cursive;
+                font-size: 4.25rem;
+              "
+            >
+              AiSketcher
+            </h1>
+            <p style="font-family: 'Poppins', sans-serif; font-size: 1.2rem;">
+              Fei Gao, Jingjie Zhu, Zeyuan Yu, Peng Li, Tao Wang, Senior Member,
+              IEEE
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contactBar" style="font-family: 'Poppins', sans-serif;">
+        <div class="container">
+          <div class="row contacts shadow">
+            <div class="col-md-3 col-sm-4">
+              <a href="with-pre.html">
+                <i class="icon icon-profile"></i>
+                <p>With Preprocessing</p></a
+              >
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <a href="without-pre.html">
+                <i class="icon icon-desktop2"></i>
+                <p>Without Preprocessing</p>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <a href="diff-styles.html">
+                <i class="icon icon-settings"></i>
+                <p>With Different Styles</p></a
+              >
+            </div>
+            <div class="col-md-3 col-sm-12">
+              <a
+                href="https://github.com/Ricelll/AiSketcher"
+                class="btn btn-primary"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <main class="portfolio-masonry">
+        <div class="content-wrapper">
+          <div class="container">
+            <!--masonry-container start-->
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/41_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/41_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/41.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/42_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/42_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/42.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/43_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/43_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/43.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/44_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/44_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/44.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/47_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/47_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/47.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/39_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/39_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/39.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/35_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/35_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/35.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/34_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/34_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/34.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/33_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/33_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/33.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/2_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/2_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/2.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/32_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/32_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/32.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/46_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/46_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/46.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/28_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/28_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/28.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/25_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/25_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/25.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/1_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/1_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/1.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/20_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/20_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/20.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/4_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/4_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/4.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/11_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/11_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/11.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/8_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/8_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/8.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/5_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/5_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/5.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/45_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/45_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/45.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/48_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/48_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/48.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/38_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/38_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/38.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/37_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/37_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/37.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/36_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/36_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/36.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/31_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/31_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/31.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/3_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/3_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/3.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/13_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/13_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/13.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/7_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/7_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/7.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/9_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/9_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/9.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/26_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/26_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/26.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/24_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/24_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/24.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="row masonry-container">
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/19_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/19_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/19.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/18_yuan.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/18_generate.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+              <div
+                class="col-md-2 col-sm-4 col-xs-12 masonry-post animatedParent animateOnce"
+              >
+                <figure class="animated fadeInUpShort">
+                  <div class="img-wrapper">
+                    <img
+                      src="assets/img/ours_robot/18.jpg"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <!--masonry-container end-->
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <p style="margin-bottom: 35px;">
+              * AiStecher's generating results of robot drawing are shown in
+              this webpage, where each of the three lines is the original image,
+              the generated image and the image of robot drawing.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--End Page page_wrrapper -->
+    <script src="assets/js/app.js"></script>
+  </body>
 </html>
